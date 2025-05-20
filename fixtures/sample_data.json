@@ -1,0 +1,95 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "description": "High-performance laptop with 16GB RAM",
+      "sku": "LAP-10001",
+      "price": 1299.99
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "description": "Latest model with 128GB storage",
+      "sku": "PHN-20002",
+      "price": 799.99
+    },
+    {
+      "id": 3,
+      "name": "Tablet",
+      "description": "10-inch tablet with stylus support",
+      "sku": "TAB-30003",
+      "price": 499.99
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Main Warehouse",
+      "address": "123 Storage Ave, Warehouse District",
+      "capacity": 1000
+    },
+    {
+      "id": 2,
+      "name": "Downtown Store",
+      "address": "456 Main St, Downtown",
+      "capacity": 200
+    },
+    {
+      "id": 3,
+      "name": "Mall Kiosk",
+      "address": "789 Shopping Center Blvd, Mall",
+      "capacity": 50
+    }
+  ],
+  "inventory": [
+    {
+      "product_id": 1,
+      "location_id": 1,
+      "quantity": 50,
+      "reorder_point": 10
+    },
+    {
+      "product_id": 1,
+      "location_id": 2,
+      "quantity": 10,
+      "reorder_point": 5
+    },
+    {
+      "product_id": 2,
+      "location_id": 1,
+      "quantity": 100,
+      "reorder_point": 20
+    },
+    {
+      "product_id": 2,
+      "location_id": 2,
+      "quantity": 25,
+      "reorder_point": 10
+    },
+    {
+      "product_id": 2,
+      "location_id": 3,
+      "quantity": 15,
+      "reorder_point": 5
+    },
+    {
+      "product_id": 3,
+      "location_id": 1,
+      "quantity": 75,
+      "reorder_point": 15
+    },
+    {
+      "product_id": 3,
+      "location_id": 3,
+      "quantity": 8,
+      "reorder_point": 5
+    },
+    {
+      "product_id": 3,
+      "location_id": 2,
+      "quantity": 2,
+      "reorder_point": 5
+    }
+  ]
+}
